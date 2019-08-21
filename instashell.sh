@@ -118,7 +118,7 @@ fi
 
 function changeip() {
 
-killall -HUP tor
+pkill tor
 
 
 }
